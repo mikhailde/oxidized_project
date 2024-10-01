@@ -8,6 +8,10 @@
 #                board-name: CHR VMware, Inc. VMware Virtual Platform
 #                  platform: MikroTik
 #   installed-version: 7.16
+# Flags: U - UNDOABLE
+# Columns: ACTION, BY, POLICY, TIME
+#   ACTION                   BY     POLICY  TIME               
+# U system identity changed  admin  write   2024-10-01 23:26:01
 # 
 # software id = 
 #
