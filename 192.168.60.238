@@ -11,6 +11,8 @@
 # Flags: U - UNDOABLE
 # Columns: ACTION, BY, POLICY, TIME
 #   ACTION                   BY     POLICY  TIME               
+# U system identity changed  admin  write   2024-10-01 23:35:42
+# U dns changed              admin  write   2024-10-01 23:35:36
 # U system identity changed  admin  write   2024-10-01 23:32:47
 # U system identity changed  admin  write   2024-10-01 23:26:01
 # 
@@ -23,5 +25,9 @@ set 0 name=serial0
 set 1 name=serial1
 /ip dhcp-client
 add interface=ether1
+/ip dns
+set servers=8.8.8.8
+/system identity
+set name=router01
 /system note
 set show-at-login=no
